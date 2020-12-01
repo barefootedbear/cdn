@@ -1,0 +1,168 @@
+
+@font-face{
+	font-weight: normal;
+	font-style: normal;
+	font-family: "owlicon";
+	src: url('../fonts/owlicon.ttf?201811131') format('truetype'),
+	url('../fonts/owlicon.svg?20180813') format('svg');
+}
+@font-face{
+	font-weight: normal;
+	font-style: normal;
+	font-family: "iconfont";
+	src: url('../fonts/iconfont.ttf?2020426') format('truetype'),
+	url('../fonts/iconfont.svg?2020426') format('svg');
+}
+.owlicon,
+.iconfont{
+	font-style: normal;
+	font-weight: normal;
+	font-size: inherit;
+	speak: none;
+	text-decoration: inherit;
+	font-variant: normal;
+	text-transform: none;	
+	line-height: inherit;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* owlicon */
+.owlicon{ font-family: "owlicon" !important; }
+.owlicon-circle:before  { content: "\ea01"; }
+.owlicon-download:before{ content: "\ea02"; }
+.owlicon-info:before    { content: "\ea03"; }
+.owlicon-info-circle:before{ content: "\ea0c"; }
+.owlicon-safe-success:before{ content: "\ea04"; }
+.owlicon-safe-warn:before{ content: "\ea05"; }
+.owlicon-success:before { content: "\ea06"; }
+.owlicon-success-circle:before	{ content: "\ea07"; }
+.owlicon-success-no-circle:before{ content: "\ea08"; }
+.owlicon-waiting:before { content: "\ea09"; }
+.owlicon-waiting-circle:before{ content: "\ea0a"; }
+.owlicon-warn:before    { content: "\ea0b"; }
+.owlicon-cancel:before  { content: "\ea0d"; }
+.owlicon-search:before  { content: "\ea0e"; }
+.owlicon-clear:before   { content: "\ea0f"; }
+.owlicon-danger:before  { content: "\ea0f"; }
+.owlicon-checked:before { content: "\ea08"; }
+
+/* iconfont */
+.iconfont{ font-family: "iconfont" !important; }
+.iconfont-msg:before  { content: "\e601"; }
+.iconfont-back:before { content: "\e607"; }
+.iconfont-set:before  { content: "\e600"; }
+.iconfont-help:before { content: "\e609"; }
+.iconfont-scan:before { content: "\e627"; }
+.iconfont-bulb:before { content: "\e603"; }
+.iconfont-del:before  { content: "\e63c"; }
+
+.iconfont-ecard:before{ content: "\e60a"; }
+.iconfont-game:before { content: "\e60b"; }
+.iconfont-cost:before { content: "\e60c"; }
+.iconfont-oils:before { content: "\e60d"; }
+.iconfont-mart:before { content: "\e60e"; }
+.iconfont-trip:before { content: "\e60f"; }
+.iconfont-more:before { content: "\e63a"; }
+
+.iconfont-1:before { content: "\e60b"; }
+.iconfont-2:before { content: "\e60c"; }
+.iconfont-3:before { content: "\e60d"; }
+.iconfont-4:before { content: "\e60f"; }
+.iconfont-5:before { content: "\e60e"; }
+.iconfont-6:before { content: "\e60a"; }
+.iconfont-7:before { content: "\e6bd"; }
+
+.iconfont-home:before     { content: "\e61f"; }
+.iconfont-home-full:before{ content: "\e620"; }
+.iconfont-category:before { content: "\e61b"; }
+.iconfont-category-full:before { content: "\e61c"; }
+.iconfont-company:before  { content: "\e61d"; }
+.iconfont-company-full:before{ content: "\e61e"; }
+.iconfont-mall-no-circle:before{ content: "\e625"; }
+.iconfont-my:before 	  { content: "\e623"; }
+.iconfont-my-full:before  { content: "\e624"; }
+.iconfont-messager:before { content: "\e62d"; }
+.iconfont-messager-full:before { content: "\e630"; }
+.iconfont-qbi:before{ content: "\e634"; }
+.iconfont-qbi-full:before{ content: "\e631"; }
+.iconfont-recharge:before{ content: "\e653"; }
+.iconfont-recharge-full:before{ content: "\e652"; }
+.iconfont-sell:before{ content: "\e65a"; }
+.iconfont-sell-full:before{ content: "\e659"; }
+.iconfont-buy:before{ content: "\e655"; }
+.iconfont-buy-full:before{ content: "\e654"; }
+
+.iconfont-balance:before{ content: "\e602"; }
+.iconfont-cash:before { content: "\e649"; }
+.iconfont-cashrecord:before{ content: "\e629"; }
+.iconfont-cards:before{ content: "\e604"; }
+.iconfont-mall:before { content: "\e621"; }
+.iconfont-mall-full:before{ content: "\e622"; }
+.iconfont-sellrecord:before{ content: "\e6a0"; }
+.iconfont-log:before  { content: "\e643"; }
+.iconfont-service:before{ content: "\e632"; }
+.iconfont-feedback:before{ content: "\e725"; }
+
+.iconfont-camera:before{ content: "\e69a"; }
+.iconfont-notice:before{ content: "\e63e"; }
+.iconfont-xiaoxi:before{ content: "\e641"; }
+.iconfont-money:before { content: "\e608"; }
+.iconfont-book:before  { content: "\e671"; }
+.iconfont-order:before { content: "\e611"; }
+
+.iconfont-empty:before  { content: "\e626"; }
+.iconfont-share:before  { content: "\e63f"; }
+.iconfont-hot:before    { content: "\e63b"; }
+.iconfont-profile:before{ content: "\e619"; }
+.iconfont-history:before{ content: "\e726"; }
+.iconfont-filtrate:before{ content: "\e62a"; }
+.iconfont-filter:before { content: "\e628"; }
+.iconfont-safe-phone:before{ content: "\e62b"; }
+.iconfont-alipay:before{ content: "\e64b"; }
+.iconfont-video:before{ content: "\e6bd"; }
+.iconfont-bell:before{ content: "\e62f"; }
+.iconfont-trade:before{ content: "\e93b"; }
+.iconfont-call:before{ content: "\e64a"; }
+.iconfont-step:before{ content: "\e695"; }
+.iconfont-cooperation:before{ content: "\e636"; }
+.iconfont-about:before{ content: "\e610"; }
+.iconfont-repair:before{ content: "\e6b6"; }
+.iconfont-sqq:before{ content: "\e62c"; }
+.iconfont-statistics:before{ content: "\e637"; }
+.iconfont-address:before{ content: "\e656"; }
+.iconfont-phone:before{ content: "\e657"; }
+.iconfont-none:before { content: "\e658"; }
+
+.iconfont-type-qbi:before  { content: "\e93c"; }
+.iconfont-type-ecard:before{ content: "\e639"; }
+.iconfont-type-more:before { content: "\e63d"; }
+.iconfont-type-trip:before { content: "\e640"; }
+.iconfont-type-cost:before { content: "\e642"; }
+.iconfont-type-mart:before { content: "\e644"; }
+.iconfont-type-jifen:before{ content: "\e651"; }
+.iconfont-type-mobile:before{ content: "\e645"; }
+.iconfont-type-foods:before { content: "\e646"; }
+.iconfont-type-game:before  { content: "\e647"; }
+.iconfont-type-video:before { content: "\e648"; }
+.iconfont-type-coupon:before{ content: "\e64d"; }
+.iconfont-type-oil:before   { content: "\e64e"; }
+.iconfont-type-coffee:before{ content: "\e650"; }
+.iconfont-type-pastime:before  { content: "\e64f"; }
+.iconfont-type-shopping:before { content: "\e638;"; }
+.iconfont-type-petroleum:before{ content: "\e64c"; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
